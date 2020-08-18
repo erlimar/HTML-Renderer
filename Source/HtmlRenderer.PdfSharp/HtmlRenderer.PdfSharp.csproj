@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
@@ -6,11 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="PdfSharpCore.MigraDoc.Rendering" Version="1.50.0-beta5-3" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\HtmlRenderer\HtmlRenderer.csproj" />
+    <ProjectReference Include="..\..\PdfSharpCore\src\MigraDoc.Rendering\MigraDoc.Rendering.csproj" />
+    <ProjectReference Include="..\..\PdfSharpCore\src\PdfSharp\PdfSharp.csproj" />
   </ItemGroup>
 
 </Project>
