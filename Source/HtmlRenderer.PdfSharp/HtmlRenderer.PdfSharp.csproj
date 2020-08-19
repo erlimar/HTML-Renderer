@@ -6,9 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\HtmlRenderer\HtmlRenderer.csproj" />
-    <ProjectReference Include="..\..\PdfSharpCore\src\MigraDoc.Rendering\MigraDoc.Rendering.csproj" />
     <ProjectReference Include="..\..\PdfSharpCore\src\PdfSharp\PdfSharp.csproj" />
+    <ProjectReference Include="..\HtmlRenderer\HtmlRenderer.csproj" />
   </ItemGroup>
 
 </Project>
